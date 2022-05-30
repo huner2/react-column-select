@@ -1,11 +1,17 @@
 {
-  "extends": [
-    "xo",
-    "xo-react"
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint"
   ],
-  "settings": {
-    "react": {
-      "version": "16"
-    }
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parserOptions": {
+    "sourceType": "module",
+    "project": "./tsconfig.json",
+    "tsconfigRootDir": "./",
+    "failOnWarning": true
   }
 }
