@@ -1,1 +1,3 @@
-export {default as ColumnSelect} from './ColumnSelect';
+import ColumnSelect from "./ColumnSelect";
+
+export default ColumnSelect;

@@ -37,7 +37,7 @@ const ColumnSelect = ({
   };
 
   const handleClickSelected = (removedValue: Value) => {
-    const newValue = value.filter((item: Value) => item !== removedValue);
+    const newValue = value.splice(value.indexOf(removedValue), 1);
     onChange(newValue);
   };
 
@@ -212,7 +212,7 @@ const ColumnSelect = ({
               type="button"
               disabled={
                 value.length === options.length ||
-                value.length >= limit ||
+                (value.length >= limit && limit >= 0) ||
                 disabled
               }
               onClick={handleClickSelectAll}

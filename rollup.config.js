@@ -23,7 +23,8 @@ export default [
                 file: './lib/cjs/index.js',
                 format: 'cjs',
                 sourcemap: true,
-                globals
+                globals,
+                exports: 'default'
             },
             {
                 file: './lib/esm/index.js',
