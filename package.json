@@ -1,6 +1,6 @@
 {
   "name": "@huner2/react-column-select",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React multiselect with twocolumns",
   "license": "MIT",
   "repository": "huner2/react-column-select",
