@@ -15,7 +15,6 @@
     "lint": "eslint '**/*.{ts,tsx}'",
     "test": "jest"
   },
-  "private": "false",
   "prettier": {
     "semi": true,
     "trailingComma": "none",
