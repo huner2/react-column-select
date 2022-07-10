@@ -1,6 +1,6 @@
 {
   "name": "@huner2/react-column-select",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React multiselect with twocolumns",
   "license": "MIT",
   "repository": "huner2/react-column-select",
@@ -26,7 +26,7 @@
   ],
   "main": "lib/cjs/index.js",
   "module": "lib/esm/index.js",
-  "types": "lib/esm/index.d.ts",
+  "types": "lib/index.d.ts",
   "keywords": [
     "react",
     "component",
