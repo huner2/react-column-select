@@ -63,7 +63,7 @@ export default [
         ],
     },
     {
-        input: 'lib/esm/types/index.d.ts',
+        input: 'lib/esm/index.d.ts',
         output: [
             {
                 file: 'lib/index.d.ts',
